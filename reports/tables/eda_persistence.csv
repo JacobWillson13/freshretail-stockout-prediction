@@ -1,0 +1,3 @@
+today,n,p_tomorrow_stockout
+today <= 2h,2629368,0.26522837427092744
+today > 2h,1520632,0.5407646294435472

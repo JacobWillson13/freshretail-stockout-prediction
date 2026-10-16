@@ -1,0 +1,3 @@
+table,rows,stores,products,store_products,cities,first_categories,min_dt,max_dt,days,eval_follows_train,gap_days
+raw_train,4500000,898,865,50000,18,32,2024-03-28,2024-06-25,90,,
+raw_eval,350000,898,865,50000,18,32,2024-06-26,2024-07-02,7,True,1.0

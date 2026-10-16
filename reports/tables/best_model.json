@@ -1,0 +1,20 @@
+{
+  "entry": "lightgbm_full",
+  "kind": "lightgbm",
+  "config": "full",
+  "selected_by": "mean backtest PR-AUC",
+  "threshold_f1_valid": 0.29100722074508667,
+  "best_iteration": 228,
+  "training_window": {
+    "train_label_dates": [
+      "2024-04-11",
+      "2024-06-11"
+    ],
+    "valid_label_dates": [
+      "2024-06-12",
+      "2024-06-25"
+    ],
+    "train_rows": 3100000,
+    "valid_rows": 700000
+  }
+}

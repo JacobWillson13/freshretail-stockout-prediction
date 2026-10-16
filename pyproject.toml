@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "freshretail-stockout"
+version = "1.0.0"
+description = "Next-day stockout alerts for perishable store-product series (FreshRetailNet-50K)"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "MIT"}
+authors = [{name = "Jacob Willson"}]
+dependencies = [
+    "duckdb>=1.1",
+    "pyarrow>=15",
+    "pandas>=2.2",
+    "numpy>=1.26",
+    "scikit-learn>=1.4",
+    "lightgbm>=4.3",
+    "shap>=0.45",
+    "matplotlib>=3.8",
+    "huggingface_hub>=0.23",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8", "ruff>=0.5"]
+notebook = ["jupyter>=1.0", "nbformat>=5.9", "nbconvert>=7.16"]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+extend-exclude = ["notebooks/*.ipynb"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B"]
+ignore = ["B023", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+# long inline SQL strings
+"src/checks.py" = ["E501"]

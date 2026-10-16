@@ -1,0 +1,16 @@
+# Kept in sync with pyproject.toml ([project.dependencies] plus the dev and notebook extras).
+# Preferred install: pip install -e ".[dev,notebook]"
+duckdb>=1.1
+pyarrow>=15
+pandas>=2.2
+numpy>=1.26
+scikit-learn>=1.4
+lightgbm>=4.3
+shap>=0.45
+matplotlib>=3.8
+huggingface_hub>=0.23
+pytest>=8
+ruff>=0.5
+jupyter>=1.0
+nbformat>=5.9
+nbconvert>=7.16

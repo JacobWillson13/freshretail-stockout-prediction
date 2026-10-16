@@ -1,0 +1,3 @@
+table,hours_sale_len_not_24,hours_stock_status_len_not_24,stock_status_min,stock_status_max
+raw_train,0,0,0,1
+raw_eval,0,0,0,1

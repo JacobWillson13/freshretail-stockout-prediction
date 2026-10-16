@@ -1,0 +1,41 @@
+comparison,model_a,model_b,metric,difference,ci_lo,ci_hi,share_draws_a_better,significant_95
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,pr_auc,0.10075334063238511,0.09791904423759026,0.10352284515526693,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,roc_auc,0.0930932497644874,0.09065036765358353,0.0955009047686175,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,precision_at_5,0.09531428571428568,0.08694559944382695,0.10355886023376125,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,recall_at_5,0.013496037810792103,0.01063539877079494,0.016493215841746615,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,precision_at_10,0.10197142857142849,0.09599448951077524,0.1080715960581538,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,recall_at_10,0.029144561479096193,0.024449134821993113,0.033800281225729735,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,precision_at_20,0.1001428571428572,0.09566608752968885,0.10448629773976376,1.0,True
+best (lightgbm_full) vs best baseline (baseline_mean7),lightgbm_full,baseline_mean7,recall_at_20,0.057323248197797105,0.05120681063016517,0.06324235012327557,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,pr_auc,0.0965151048782728,0.09433593035286261,0.09902152530485252,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,roc_auc,0.07985685093367989,0.07835222906233942,0.08140401789251461,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,precision_at_5,0.07885714285714274,0.07204550189961405,0.08687325476124627,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,recall_at_5,0.011588359181245497,0.008827638303015164,0.014531857211106999,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,precision_at_10,0.07568571428571425,0.07027276427587908,0.08167261317026023,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,recall_at_10,0.02264183708505499,0.019054218186571794,0.02645580859496128,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,precision_at_20,0.06132857142857151,0.05763746918288739,0.0653540734659093,1.0,True
+best (lightgbm_full) vs rule baseline (baseline_today),lightgbm_full,baseline_today,recall_at_20,0.03662647927543661,0.03263994568504532,0.04081453834832361,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,pr_auc,0.028437452147064946,0.026533471694203246,0.030339264124644487,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,roc_auc,0.021300772489774134,0.019983969542814155,0.02258228111333481,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,precision_at_5,0.04428571428571437,0.03737646847887695,0.050588490646941944,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,recall_at_5,0.0062537741574319045,0.004017867631569059,0.008349173623255888,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,precision_at_10,0.036771428571428455,0.032240270063944344,0.040855693035002014,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,recall_at_10,0.010533062048192404,0.007620371267020943,0.013263217119072686,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,precision_at_20,0.029585714285714215,0.026535299274098516,0.03244110600600711,1.0,True
+full vs combined (LightGBM),lightgbm_full,lightgbm_combined,recall_at_20,0.016985682437874905,0.013427218411610426,0.020435314430274337,1.0,True
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,pr_auc,0.006671092194459383,0.005687557903294435,0.007650523194412972,1.0,True
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,roc_auc,0.008707533409348267,0.008020800174152815,0.009430622796452673,1.0,True
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,precision_at_5,0.002114285714285513,-0.003047843580444953,0.007353732482686829,0.806,False
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,recall_at_5,0.00032248078736898944,-0.001381977096662483,0.0019052490637359756,0.634,False
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,precision_at_10,0.00711428571428574,0.0034459844732018853,0.010863043237550949,1.0,True
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,recall_at_10,0.0020884559126660984,-8.239682102008228e-05,0.004346499283643909,0.971,False
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,precision_at_20,0.007614285714285796,0.0050687039435619256,0.010000964401942092,1.0,True
+combined vs daily (LightGBM),lightgbm_combined,lightgbm_daily,recall_at_20,0.0045441907218737865,0.0017983247829664415,0.007150180527946059,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,pr_auc,0.039956107078425784,0.03783428543730207,0.042186376549186395,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,roc_auc,0.03393343757878964,0.03252868384931751,0.035397460276108995,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,precision_at_5,0.05868571428571434,0.051405992872510534,0.06580403733229344,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,recall_at_5,0.00805027991136019,0.005492190455258906,0.010627903398439869,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,precision_at_10,0.04334285714285713,0.038035037403673255,0.04822886193517505,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,recall_at_10,0.012091081436241491,0.00900674083460428,0.015231212739179824,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,precision_at_20,0.03960000000000008,0.03601440775787317,0.04303827345750802,1.0,True
+full vs combined (logistic regression),logreg_full,logreg_combined,recall_at_20,0.022553604578351594,0.01854559990932044,0.026373053600331636,1.0,True

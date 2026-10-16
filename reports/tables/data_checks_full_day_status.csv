@@ -1,0 +1,3 @@
+day_type,days,mean_daily_sales,share_days_with_sale
+all 16 window hours = 0,2714556,0.9945006479881078,0.9813096506389996
+all 16 window hours = 1,194332,0.04525091081242101,0.1849257970895169
